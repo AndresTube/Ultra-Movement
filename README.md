@@ -40,16 +40,16 @@ Effect: Provides a strong vertical and horizontal rebound, enabling jump combos 
 
 The plugin uses one main command for administrative control. It requires the permission ultramovement.admin.
 
-Command                                    Description                                    Permission
+Command-------------------------------------Description------------------------------------Permission
 
-/um or /ultramovement            Displays plugin usage information.                   ultramovement.admin
+/um or /ultramovement     -       Displays plugin usage information.         -          ultramovement.admin
 
-/um enable                    Activates all UltraMovement abilities.                  ultramovement.admin
+/um enable         -           Activates all UltraMovement abilities.         -         ultramovement.admin
 
-/um disable              Deactivates all UltraMovement abilities instantly.           ultramovement.admin
+/um disable       -       Deactivates all UltraMovement abilities instantly.      -     ultramovement.admin
 
-/um get [ability]              It lets you obtain one of the objects 
-                                    integrated into the plugin                        ultramovement.admin
+/um get [ability]       -       It lets you obtain one of the objects 
+                                    integrated into the plugin                -        ultramovement.admin
 
 🛠️ Installation and Usage
 
