@@ -11,29 +11,21 @@ This plugin focuses on three item-driven movement mechanics:
 1. 🚀 Iron Wing Boots (Double Jump)
 
 The double jump ability is activated when equipping the Iron Wing Boots.
-
 Ability: Allows players to jump a second time while airborne.
-
 Anti-Damage Mechanic: Includes a brief Slow Falling effect to neutralize accidental fall damage immediately after a jump, significantly improving fluidity.
-
 Recharge: Automatically recharges upon touching the ground.
 
 2. ⚡ Dash Amulet (Dash)
 
 Activated by equipping the Speed Amulet (currently a Rabbit's Foot) in the main hand.
-
 Activation: Activated by performing a Right Click action while holding the item.
-
 Effect: Launches the player forward with a quick horizontal boost, ideal for crossing large gaps.
-
 Cooldown: Includes a built-in cooldown period to balance the ability.
 
 3. 🐸 Pogo Block (Bounce Block)
 
 The special Pogo Block (currently identified as a Slime Block) allows for rebounding.
-
 Activation: Activated by Left-Clicking the block (Slime Block) while near it or upon landing on it (based on code intent).
-
 Effect: Provides a strong vertical and horizontal rebound, enabling jump combos and advanced parkour routes.
 
 🕹️ Commands
@@ -72,6 +64,4 @@ The resulting JAR file will be located in the build/libs/ folder.
 Contributions are welcome! If you want to add a new movement mechanic, report a bug, or improve the code, please open an Issue or submit a Pull Request to this repository.
 
 📝 License
-This project is licensed under the MIT License.
-
 This project is licensed under the MIT License.
