@@ -61,7 +61,7 @@ Development and Compilation
 
 If you wish to compile the source code yourself:
 
-Clone the repository: git clone https://aws.amazon.com/es/what-is/repo/
+Clone the repository: git clone https://github.com/AndresTube/Ultra-Movement.git
 Navigate to the project folder: cd UltraMovement
 Compile using Gradle: ./gradlew clean shadowJar
 
