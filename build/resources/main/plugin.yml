@@ -1,0 +1,15 @@
+name: UltraMovement
+version: 1.0.0
+# La clase principal donde el servidor debe empezar
+main: com.andrestube.ultramovement.UltraMovementPlugin
+api-version: 1.21
+author: AndresTube
+description: Añade habilidades de doble salto, dash y bloques de impulso (pogo) al juego.
+
+commands:
+  ultramovement:
+    description: Comandos para controlar el plugin UltraMovement.
+    aliases: [um]
+    usage: /um <enable|disable>
+    permission: ultramovement.admin
+    permission-message: No tienes permiso para usar este comando.
