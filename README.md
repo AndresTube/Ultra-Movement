@@ -1,4 +1,4 @@
-UltraMovement - Unleash Extreme Movement in Minecraft
+# UltraMovement - Unleash Extreme Movement in Minecraft
 
 
 
@@ -18,7 +18,7 @@ Anti-Damage Mechanic: Includes a brief Slow Falling effect to neutralize acciden
 
 Recharge: Automatically recharges upon touching the ground.
 
-2. ⚡ Speed Amulet (Dash)
+2. ⚡ Dash Amulet (Dash)
 
 Activated by equipping the Speed Amulet (currently a Rabbit's Foot) in the main hand.
 
@@ -40,42 +40,21 @@ Effect: Provides a strong vertical and horizontal rebound, enabling jump combos 
 
 The plugin uses one main command for administrative control. It requires the permission ultramovement.admin.
 
-Command
+Command                                    Description                                    Permission
 
-Description
+/um or /ultramovement            Displays plugin usage information.                   ultramovement.admin
 
-Permission
+/um enable                    Activates all UltraMovement abilities.                  ultramovement.admin
 
-/um or /ultramovement
+/um disable              Deactivates all UltraMovement abilities instantly.           ultramovement.admin
 
-Displays plugin usage information.
-
-ultramovement.admin
-
-/um enable
-
-Activates all UltraMovement abilities.
-
-ultramovement.admin
-
-/um disable
-
-Deactivates all UltraMovement abilities instantly.
-
-ultramovement.admin
-
-/um give [ability] [player]
-
-Pending implementation
-
-ultramovement.admin
+/um get [ability]              It lets you obtain one of the objects 
+                                    integrated into the plugin                        ultramovement.admin
 
 🛠️ Installation and Usage
 
-Download: Get the latest version of UltraMovement-X.X.jar from the [releases page](LINK TO YOUR RELEASES PAGE).
-
+Download: Get the latest version of UltraMovement-X.X.jar from the releases page.
 Move: Place the .jar file into your server's /plugins/ directory (Paper or Spigot).
-
 Start/Reload: Restart or use /reload in the server console.
 
 Development and Compilation
@@ -83,9 +62,7 @@ Development and Compilation
 If you wish to compile the source code yourself:
 
 Clone the repository: git clone https://aws.amazon.com/es/what-is/repo/
-
 Navigate to the project folder: cd UltraMovement
-
 Compile using Gradle: ./gradlew clean shadowJar
 
 The resulting JAR file will be located in the build/libs/ folder.
@@ -95,5 +72,6 @@ The resulting JAR file will be located in the build/libs/ folder.
 Contributions are welcome! If you want to add a new movement mechanic, report a bug, or improve the code, please open an Issue or submit a Pull Request to this repository.
 
 📝 License
+This project is licensed under the MIT License.
 
 This project is licensed under the MIT License.
